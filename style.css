@@ -1,22 +1,44 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
 
-body{
-    display: flex;
-    flex-direction: row;
+h1 {
+    font-size: 66px;
+    color: #0B709B;
+    text-align: center;
+    margin-top: -570px;
 }
 
+.coluna {
+    width: 35px;
+    height: 100vh;
+    background-color: #0B709B;
+}
 
-.titulo {
-    color: #0B709B;
-    font-size: 46px;
+.modo {
+    margin-top: -100px;
+    margin-left: 1300px;
+}
+
+.linha1 {
+    background-color: black;
+    width: 700px;
+    height: 1px;
+    margin-left: 330px;
+    margin-top: 200px;
+}
+
+.linha2 {
+    background-color: black;
+    width: 700px;
+    height: 1px;
+    margin-left: 330px;
+    margin-top: 150px;
+}
+
+footer {
     text-align: center;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
+    margin-top: 150px;
 }
